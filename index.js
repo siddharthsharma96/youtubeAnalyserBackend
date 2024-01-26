@@ -5,7 +5,10 @@ const app = express();
 
 app.use(cors());
 
-app.get("/search", fetchVideoStatistics);
+// app.get("/search", fetchVideoStatistics);
+app.get("/search",(req,res)=>{
+  res.send("heeloojhdbcjhdfbj")
+})
 
 const PORT = 8000;
 app.listen(PORT, () => {
