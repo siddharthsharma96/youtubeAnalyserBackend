@@ -7,7 +7,7 @@ app.use(cors());
 
 // app.get("/search", fetchVideoStatistics);
 app.get("/search",(req,res)=>{
-  res.send("heeloojhdbcjhdfbj")
+  return res.send("heeloojhdbcjhdfbj");
 })
 
 const PORT = 8000;
